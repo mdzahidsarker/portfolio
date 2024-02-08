@@ -312,6 +312,10 @@ button {
   fill: var(--first-color);
 }
 
+.home_name {
+  color: #470fc9;
+}
+
 .home_blob-img {
   width: 170px;
 }
