@@ -74,7 +74,12 @@
           </li>
           <li class="nav_item">
             <a href="#projects" class="nav_link">
-              <i class="uil uil-scenery nav_icon"></i> Projects & Events
+              <i class="eos-icons--project nav_icon"></i> Projects
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#tours" class="nav_link">
+              <i class="material-symbols--travel-explore nav_icon"></i> Traveling
             </a>
           </li>
           <li class="nav_item">
@@ -205,56 +210,7 @@
             <i class="uil uil-angle-down skills_arrow"></i>
           </div>
 
-          <div class="skills_list grid">
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon external-logo">
-                  <img src="./assets//skill/sw.png" alt="next-logo">
-                </span>
-                <h3 class="skills_name">Solidworks</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-            
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon external-logo">
-                  <img src="./assets//skill/ansys.png" alt="next-logo">
-                </span>
-                <h3 class="skills_name">ANSYS</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon external-logo">
-                  <img src="./assets//skill/matlab.png" alt="next-logo">
-                </span>
-                <h3 class="skills_name">MATLAB</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon external-logo">
-                  <img src="./assets//skill/ai.png" alt="next-logo">
-                </span>
-                <h3 class="skills_name">Adobe Illustrator</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon external-logo">
-                  <img src="./assets//skill/ps.png" alt="next-logo">
-                </span>
-                <h3 class="skills_name">Adobe Photoshop</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
+          <div class="skills_list grid" id="software">
 
           </div>
         </div>
@@ -272,47 +228,7 @@
             <i class="uil uil-angle-down skills_arrow"></i>
           </div>
 
-          <div class="skills_list grid">
-
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="fab fa-html5"></i>
-                </span>
-                <h3 class="skills_name">HTML</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="fab fa-css3"></i>
-                </span>
-                <h3 class="skills_name">CSS</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-            
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="fab fa-js-square"></i>
-                </span>
-                <h3 class="skills_name">JavaScript</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-            
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="fab fa-python"></i>
-                </span>
-                <h3 class="skills_name">Python</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
+          <div class="skills_list grid" id="language">
 
           </div>
         </div>
@@ -415,7 +331,7 @@
               </div>
             </div>
 
-            <!-- AHRS RCF -->
+            <!-- AHR -->
             <div class="qualification_data">
               <div></div>
 
@@ -435,20 +351,40 @@
               </div>
             </div>
 
-            <!-- WeFrame.tech -->
+            <!-- icmime -->
             <div class="qualification_data">
               <div>
-                <h3 class="qualification_title">Class Representative</h3>
-                <span class="qualification_subtitle"><a href="https://www.me.ruet.ac.bd/" target="_blank"
-                    rel="noopener noreferrer">Dept. of Mechanical Engineering</a></span>
+                <h3 class="qualification_title">Volunteer</h3>
+                <span class="qualification_subtitle"><a href="https://icmime-ruet.ac.bd/index.html" target="_blank"
+                    rel="noopener noreferrer">5<sup>th</sup> International Conference on Mechanical Industrial & Material Engineering-2022</a></span>
                 <div class="qualification_calendar">
                   <i class="uil uil-calendar-alt"></i>
-                  January 2020 - April, 2023
+                  December, 2022
                 </div>
               </div>
 
               <div>
                 <span class="qualification_circle"></span>
+                <span class="qualification_line"></span>
+              </div>
+            </div>
+
+            <!-- CR -->
+            <div class="qualification_data">
+              <div></div>
+
+              <div>
+                <span class="qualification_circle"></span>
+              </div>
+
+              <div>
+                <h3 class="qualification_title">Class Representative</h3>
+                <span class="qualification_subtitle"><a href="https://www.me.ruet.ac.bd/class-representative-list" target="_blank"
+                    rel="noopener noreferrer">Dept. of Mechanical Engineering</a></span>
+                <div class="qualification_calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  January 2020 - April, 2023
+                </div>
               </div>
             </div>
 
@@ -462,121 +398,9 @@
       <span class="section_subtitle">Most recent work</span>
 
       <div class="portfolio_container container swiper-container swiper mySwiper">
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper" id="project_event">
 
-          <!-- fkdc season-7 -->
-          <div class="portfolio_content grid swiper-slide">
-            <img src="./assets/project/fkdcs7.jpg" alt="daral marefa" class="portfolio_img">
-
-            <div class="portfolio_data">
-              <h3 class="portfolio_title">
-                FKDC Season-7
-              </h3>
-              <p class="portfolio_description">
-                FKDC Season-7 in India was exhilarating! 🏁Grateful for the experience and ready for more adventures! 🚗💨
-              </p>
-              <a href="https://www.facebook.com/photo?fbid=933846161602424&set=pcb.933847141602326" class="button button-flex button-small portfolio_button"
-                target="_blank">
-                Check out
-                <i class="uil uil-arrow-right button_icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <!-- Career Catalyst 1.0 -->
-          <div class="portfolio_content grid swiper-slide">
-            <img src="./assets/project/career catalyst1.0.jpg" alt="ag Automobile" class="portfolio_img">
-
-            <div class="portfolio_data">
-              <h3 class="portfolio_title">
-                Career Catalyst 1.0
-              </h3>
-              <p class="portfolio_description">
-                Excited for RCF's Career Catalyst event on BCS and life! Ready for insights and connections. 
-              </p>
-              <a href="https://www.facebook.com/photo.php?fbid=370450488827315&set=pb.100075871003870.-2207520000&type=3" class="button button-flex button-small portfolio_button"
-                target="_blank">
-                Check out
-                <i class="uil uil-arrow-right button_icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <!-- 8th RCF Fair -->
-          <div class="portfolio_content grid swiper-slide">
-            <img src="./assets/project/8thcareer fair.jpg" alt="ag Automobile" class="portfolio_img">
-
-            <div class="portfolio_data">
-              <h3 class="portfolio_title">
-                8<sup>th</sup> RCF Career Fair
-              </h3>
-              <p class="portfolio_description">
-                Looking forward to RCF's 8<sup>th</sup> Career Fair—a platform for growth and opportunities!
-              </p>
-              <a href="https://www.ruetcareerforum.org/8th_RCF_CareerFair/" class="button button-flex button-small portfolio_button"
-                target="_blank">
-                Check out
-                <i class="uil uil-arrow-right button_icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <!-- 1st reunion of MEAAR -->
-          <div class="portfolio_content grid swiper-slide">
-            <img src="./assets/project/1stMEAAR.jpg" alt="ag Automobile" class="portfolio_img">
-
-            <div class="portfolio_data">
-              <h3 class="portfolio_title">
-                1<sup>st</sup> Reunion of MEAAR
-              </h3>
-              <p class="portfolio_description">
-                The 1<sup>st</sup> reunion program of Dept. of Mechanical Engineering, RUET.
-              </p>
-              <a href="https://facebook.com/photo/?fbid=3155969581292134&set=pcb.3155970681292024" class="button button-flex button-small portfolio_button"
-                target="_blank">
-                Check out
-                <i class="uil uil-arrow-right button_icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <!-- ICMIME-2022 -->
-          <div class="portfolio_content grid swiper-slide">
-            <img src="./assets/project/icmime-2022.jpg" alt="ICMIME-2022" class="portfolio_img">
-
-            <div class="portfolio_data">
-              <h3 class="portfolio_title">
-                ICMIM-2022
-              </h3>
-              <p class="portfolio_description">
-                The 5<sup>th</sup> International Conference on Mechanical Industrial and Materials Engineering, 2022
-              </p>
-              <a href="https://icmime-ruet.ac.bd/index.html" class="button button-flex button-small portfolio_button"
-                target="_blank">
-                Check out
-                <i class="uil uil-arrow-right button_icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <!-- 7th RCF Fair -->
-          <div class="portfolio_content grid swiper-slide">
-            <img src="./assets/project/7thrcfcareerfair.jpg" alt="ag Automobile" class="portfolio_img">
-
-            <div class="portfolio_data">
-              <h3 class="portfolio_title">
-                7<sup>th</sup> RCF Career Fair
-              </h3>
-              <p class="portfolio_description">
-                Looking forward to RCF's 7<sup>th</sup> Career Fair—a platform for growth and opportunities!
-              </p>
-              <a href="https://www.ruetcareerforum.org/careerfair/" class="button button-flex button-small portfolio_button"
-                target="_blank">
-                Check out
-                <i class="uil uil-arrow-right button_icon"></i>
-              </a>
-            </div>
-          </div>
+          <!-- All projects will arrive here -->
 
         </div>
         <!-- Arrows -->
@@ -590,6 +414,29 @@
         <div class="swiper-pagination"></div>
       </div>
     </section>
+
+    <!-- Tour portfolio -->
+    <!-- <section class="portfolio section" id="tours"> -->
+      <!-- <h2 class="section_title">Travel with me</h2> -->
+      <!-- <span class="section_subtitle">Places I have visited</span> -->
+
+      <!-- <div class="portfolio_container container swiper-container swiper mySwiper"> -->
+        <!-- <div class="swiper-wrapper" id="tour"> -->
+
+          <!-- All traveled place will arrive here -->
+
+        <!-- </div> -->
+        <!-- Arrows -->
+        <!-- <div class="swiper-button-next"> -->
+          <!-- <i class="uil uil-angle-right-b swiper-portfolio-icon"></i> -->
+        <!-- </div> -->
+        <!-- <div class="swiper-button-prev"> -->
+          <!-- <i class="uil uil-angle-left-b swiper-portfolio-icon"></i> -->
+        <!-- </div> -->
+        <!-- Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+      <!-- </div> -->
+    <!-- </section> -->
 
     <!-- Contact Me -->
     <section class="contact section" id="contact">
@@ -734,6 +581,16 @@
   <script src="./assets/js/tilt.jquery.min.js"></script>
 
   <script src="./assets/js/main.js"></script>
+
+  <!--software and language-->
+  <script src="./assets/js/skill.js"></script>
+
+  <!--Projects js-->
+  <script src="./assets//js//projects.js"></script>
+
+  <!--Projects js-->
+  <!-- <script src="./assets//js//tours.js"></script> -->
+
 
 
 </body>
