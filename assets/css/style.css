@@ -3,14 +3,14 @@
 :root {
   --header-height: 3rem;
 
-  --hue-color: 250;
-  --first-color: hsl(var(--hue-color), 69%, 61%); /* #6e57e0 */
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%); /* #7d6bd6 */
+  --hue-color: 120;
+  --first-color: hsl(var(--hue-color), 69%, 45%); /* #6e57e0 */
+  --first-color-second: hsl(var(--hue-color), 69%, 39%);
+  --first-color-alt: hsl(var(--hue-color), 57%, 50%); /* #7d6bd6 */
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%); /* #c2b6fc */
   --title-color: hsl(var(--hue-color), 8%, 15%);
   --text-color: hsl(var(--hue-color), 8%, 45%);
-  --text-color-light: hsl(var(--hue-color), 8%, 65%);
+  --text-color-light: hsl(var(--hue-color), 18%, 96%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 60%, 99%);
   --container-color: #fff;
@@ -62,10 +62,11 @@
 body.dark-theme {
   --first-color-second: hsl(var(--hue-color), 30%, 8%);
   --title-color: hsl(var(--hue-color), 8%, 95%);
-  --text-color: hsl(var(--hue-color), 8%, 75%);
+  --text-color: hsl(var(--hue-color), 8%, 85%);
+  --text-color-light: hsl(var(--hue-color), 8%, 99%);
   --input-color: hsl(var(--hue-color), 29%, 16%);
-  --body-color: hsl(var(--hue-color), 28%, 12%);
-  --container-color: hsl(var(--hue-color), 29%, 16%);
+  --body-color: hsl(var(--hue-color), 15%, 6%);
+  --container-color: hsl(var(--hue-color), 29%, 1%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
@@ -313,7 +314,7 @@ button {
 }
 
 .home_name {
-  color: #470fc9;
+  color: var(--first-color);
 }
 
 .home_blob-img {
@@ -453,7 +454,7 @@ button {
 
 .skills_subtitle {
   font-size: var(--small-font-size);
-  color: var(--text-color-light);
+  color: var(--text-color);
 }
 
 .skills_arrow {
@@ -553,7 +554,7 @@ button {
 
 .qualification_calendar {
   font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
+  color: var(--text-color);
 }
 
 .qualification_circle {
@@ -664,7 +665,7 @@ button {
 
 .contact_subtitle {
   font-size: var(--small-font-size);
-  color: var(--text-color-light);
+  color: var(--text-color);
 }
 
 .contact_content {
