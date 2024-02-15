@@ -15,25 +15,25 @@ const projects= [
         name: "8<sup>th</sup> RCF Career Fair",
         description: "Looking forward to RCF's 8<sup>th</sup> Career Fair—a platform for growth and opportunities!",
         link: "https://www.ruetcareerforum.org/8th_RCF_CareerFair/",
-        img: "./assets/project/8thcareer fair.jpg",
+        img: "assets/project/8thcareer fair.jpg",
     },
     {
         name: "1<sup>st</sup> Reunion of MEAAR",
         description: "The 1<sup>st</sup> reunion program of Dept. of Mechanical Engineering, RUET.",
         link: "https://facebook.com/photo/?fbid=3155969581292134&set=pcb.3155970681292024",
-        img: "./assets/project/1stMEAAR.jpg",
+        img: "assets/project/1stMEAAR.jpg",
     },
     {
         name: "ICMIM-2022",
         description: "The 5<sup>th</sup> International Conference on Mechanical Industrial and Materials Engineering, 2022",
         link: "https://icmime-ruet.ac.bd/index.html",
-        img: "./assets/project/icmime-2022.jpg",
+        img: "assets/project/icmime-2022.jpg",
     },
     {
         name: "7<sup>th</sup> RCF Career Fair",
         description: "Looking forward to RCF's 7<sup>th</sup> Career Fair—a platform for growth and opportunities!",
         link: "https://www.ruetcareerforum.org/careerfair/",
-        img: "./assets/project/7thrcfcareerfair.jpg",
+        img: "assets/project/7thrcfcareerfair.jpg",
     },
 ];
 
