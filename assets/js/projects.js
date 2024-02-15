@@ -3,13 +3,13 @@ const projects= [
         name: "FKDC Season-7",
         description: "FKDC Season-7 in India was exhilarating! 🏁Grateful for the experience and ready for more adventures! 🚗💨",
         link: "https://www.facebook.com/photo?fbid=933846161602424&set=pcb.933847141602326",
-        img: "./assets/project/fkdcs7.jpg",
+        img: "assets/project/fkdcs7.jpg",
     },
     {
         name: "Career Catalyst 1.0",
         description: "Excited for RCF's Career Catalyst event on BCS and life! Ready for insights and connections. ",
         link: "https://www.facebook.com/photo.php?fbid=370450488827315&set=pb.100075871003870.-2207520000&type=3",
-        img: "./assets/project/career catalyst1.0.jpg",
+        img: "assets/project/career catalyst1.0.jpg",
     },
     {
         name: "8<sup>th</sup> RCF Career Fair",
