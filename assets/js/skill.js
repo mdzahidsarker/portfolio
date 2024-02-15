@@ -36,7 +36,7 @@ const softwareHTML = software
     </div>
     `
   })
-  .join();
+  .join("");
 
 document.getElementById("software").innerHTML = softwareHTML;
 
@@ -78,6 +78,6 @@ const languageHTML = language
         </div>
     `
   })
-  .join();
+  .join("");
 
 document.getElementById("language").innerHTML = languageHTML;
